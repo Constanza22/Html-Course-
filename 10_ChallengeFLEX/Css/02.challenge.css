@@ -1,0 +1,78 @@
+html,body, p, ul, li{
+    margin: 0;
+    border:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    background-image: url("../louvre-102840_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/*div{*/
+/*  ;*/
+/*    text-align: center;*/
+/*    color: black;*/
+/*  margin: 5em auto;*/
+/*    font-size: 4rem;*/
+/*}*/
+
+
+
+ul{  display: flex;
+    /*display: flex;*/
+    flex-flow: column nowrap;
+    border: 1px solid lightgray;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    width: 100%;
+
+}
+
+li{
+    border-top: 2px solid grey;
+    padding: 1.7em;
+    list-style-type: none;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family:sans-serif;
+    /*position: fixed;*/
+}
+
+li:hover{
+    background-color:rgba(0, 0, 0, 0.70);
+
+}
+
+@media (min-width: 600px){
+    ul{
+        display: flex;
+        flex-flow: row;
+        justify-content: flex-end;
+        background-color: rgba(0, 0, 0, 0.0);
+        font-weight: bold;
+        border:none;
+
+    }
+li{
+    border:0;
+}
+    li:hover{
+        height: 6%;
+    }
+
+
+}

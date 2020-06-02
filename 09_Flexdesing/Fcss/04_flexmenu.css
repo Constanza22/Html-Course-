@@ -1,0 +1,51 @@
+
+body,ul,li,a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    flex-flow: column nowrap;
+    justify-items: flex-end;
+    width: 100%;
+    background-color: pink;
+}
+
+li{
+    list-style-type: none;
+    font-size: 1rem;
+    font-family: sans-serif;
+
+}
+
+a{
+    display: block;
+    padding: 20px 0;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    text-decoration: none;
+    text-align: center;
+    background-color: pink;
+    color: white;
+
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+@media (min-width: 600px){
+    ul{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+
+    }
+
+    a{
+        padding: 1em;
+    }
+
+
+}

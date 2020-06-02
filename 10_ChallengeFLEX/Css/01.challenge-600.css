@@ -1,0 +1,19 @@
+
+ul{
+    flex-flow: row;
+    justify-content: flex-end;
+    /*padding-right: 2em;*/
+
+}
+
+a{
+   /*boder:none;*/
+   /* border-top: none;*/
+   /* padding-right: 1em;*/
+   /* text-align: center;*/
+}
+
+li{
+    padding:1em;
+    text-align: center;
+}

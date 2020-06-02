@@ -1,0 +1,23 @@
+
+body{
+    width: 80%;
+}
+
+main, nav{
+    background-color: coral;
+    box-sizing: border-box;
+}
+
+nav{
+    border: lightseagreen 2px solid;
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+
+main{
+    border: 2px solid crimson;
+    float: right;
+    width: 74%;
+    height: 200px;
+}

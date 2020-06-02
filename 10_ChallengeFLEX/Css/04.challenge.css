@@ -1,0 +1,91 @@
+body,html, article, header, aside, footer{
+    margin: 0;
+    border:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header,aside,footer{
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    /*padding:2em;*/
+    justify-content: center;
+    align-items: center;
+}
+
+header,aside,footer, :nth-child(4), :nth-child(3){
+    text-align: center;
+    height: 30px;
+    width: 100%;
+}
+
+header {
+    background-color: coral;
+
+}
+
+article{
+    background-color:dodgerblue ;
+    height: 100px; width: 100%;
+}
+
+footer{
+    background-color:lightgreen;
+}
+
+aside{
+    background-color: gold;
+}
+
+:nth-child(4){
+    background-color: pink;
+}
+
+@media(min-width:600px){
+    body{
+        flex-flow: row wrap;
+       padding:1em;
+
+    }
+
+  :nth-child(3),:nth-child(4){
+        width: 50%;
+    }
+
+}
+
+
+@media (min-width:900px){
+
+   body{
+       flex-flow: wrap;
+   }
+
+    :nth-child(4){
+        width: 20%; height: 100px;
+    }
+
+  article{
+      width: 60%;  order:1;
+  }
+
+
+aside{
+    order:1;
+    height: 100px;
+}
+
+:nth-child(3){
+    order:0;
+    width: 20%;
+     height: 100px;
+
+}
+
+footer{order:3;}
+
+}

@@ -1,0 +1,22 @@
+
+
+div{
+    display: flex;
+
+}
+
+nav, aside{
+   width:  20%;
+    border-width: medium;
+    border-right: 2px solid;
+}
+
+article{
+    width: 60%;
+    border-width: medium;
+    border-right: 2px solid;
+}
+
+footer{
+    border-width: medium;
+}

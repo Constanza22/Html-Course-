@@ -1,0 +1,25 @@
+html{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    border:2px solid;
+    width: 80%;
+    margin: 0 auto;
+}
+
+div{
+    width: 220px;
+    height: 200px;
+    background-color: coral;
+    border: red solid 3px;
+    margin: 0 auto;
+
+}
+
+#relative{
+    position: relative;
+    top:20px;
+    left: 40px;
+}

@@ -1,0 +1,23 @@
+div{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+#relative{
+    width: 600px;
+    background-color: coral;
+    border: 3px solid red;
+    height: 500px;
+    position: relative;
+}
+
+#absolute{
+    border: 3px red solid;
+    background-color: hotpink;
+    height: 150px;
+    width: 140px;
+    position: absolute;
+    top:120px;
+    right:10px;
+}

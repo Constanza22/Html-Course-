@@ -1,0 +1,119 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.c1{
+    /*background-color: green;*/
+    width: 100%;
+    background-image: url("../Img/floress.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.c2 {
+    /*background-color: limegreen;*/
+    width: 100%;
+    background-image: url("../Img/ofc.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.c3{
+width:100%;
+    background-image: url("../Img/regalo.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.c4{
+    /*background-color: springgreen;*/
+    width: 100%;
+    background-image: url("../Img/flowers.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.c5{
+    /*background-color: palegreen;*/
+    width: 100%;
+    background-image: url("../Img/gpink.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.c6{
+    /*background-color: pink;*/
+    width: 100%;
+    background-image: url("../Img/regalo.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+.c7{
+    /*background-color: dodgerblue;*/
+    width: 100%;
+    background-image: url("../Img/globes.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+div{
+    height: 150px;
+    /*border: 0px solid #FFB6C1;*/
+    font-size: 2em;
+}
+
+@media (min-width: 600px){
+
+    .c1{
+        width: 100%;
+    }
+
+    .c2,.c3,.c4,.c5,.c6,.c7{
+        width: 16.66%;
+    }
+    div:first-child{
+        order: 2;
+    }
+}
+
+@media (min-width: 800px) {
+
+    .c1 {
+        width: 25%;
+
+
+    }
+
+    .c2 {
+        width: 25%;
+
+
+    }
+
+    .c3 {
+        width: 50%;
+
+    }
+
+    .c4 {
+        width: 25%;
+    }
+
+    .c5 {
+        width: 100%;
+    }
+
+    .c6 {
+        width: 25%;
+
+    }
+
+    .c7 {
+        width: 50%;
+    }
+
+
+
+
+}

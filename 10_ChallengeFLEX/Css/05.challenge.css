@@ -1,0 +1,50 @@
+body,html,ul{
+    margin: 0;
+    border:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ul{
+    border:solid 2px;
+}
+
+li{
+    width: 100%;
+    text-align: center;
+    background-color: paleturquoise;
+    border-bottom: 1.5px solid;
+    height: 50px;
+    padding-top:0.5em;
+    font-weight: bold;
+    list-style-type: none;
+}
+ul:last-child{
+    border-bottom:none;
+}
+
+@media (min-width:600px){
+    body{
+        margin: 1em 1em;
+        box-sizing: border-box;
+    }
+
+    ul{
+        display: flex;
+        flex-flow:  wrap;
+        border:none
+
+    }
+    li{
+        border:0.5px solid;
+        box-sizing: border-box;
+    }
+
+    .si{
+        width: 50%;
+    }
+
+    .se{
+        width: 50%;
+    }
+}

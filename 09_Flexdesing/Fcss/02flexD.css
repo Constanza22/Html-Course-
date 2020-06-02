@@ -1,0 +1,55 @@
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+
+}
+
+.c1, .c3, .c2, .c4{
+
+    min-height: 150px;
+}
+
+.c1{
+    background-color: deeppink;
+
+    width: 100%;
+
+}
+
+.c2{
+    border:2px red solid;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.c3{
+    background-color: hotpink;
+    width: 100%;
+
+}
+
+.c4{
+    background-color: #FFB6C1;
+    width: 100%;
+}
+
+@media (min-width: 600px){
+
+    .c1{
+        width: 25%;
+    }
+
+    .c2{
+        width: 75%;
+    }
+}
+
+@media (min-width: 800px){
+    body{
+        width: 80%;
+        margin: 0 auto;
+    }
+}

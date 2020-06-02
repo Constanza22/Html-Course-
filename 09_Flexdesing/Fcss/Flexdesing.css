@@ -1,0 +1,33 @@
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    /* formatting */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.fl1, .fl2, .fl3 {
+    width: 100%;
+    /* formatting */
+    min-height: 150px;
+}
+
+/*@media screen and (max-width: 500px) {*/
+/*    div{*/
+/*        height: 100px;*/
+/*    }*/
+
+
+.fl1{
+    background-color: darkblue;
+}
+
+.fl2{
+    background-color: dodgerblue;
+}
+
+.fl3{
+    background-color: lightskyblue;
+}
