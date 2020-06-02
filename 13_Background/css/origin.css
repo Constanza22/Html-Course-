@@ -1,0 +1,17 @@
+
+
+
+div{
+    border: 20px solid black;
+
+    background-image: url("../dog (1).png");
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+    text-align: justify;
+    background-color: darkturquoise;
+    color: white;
+    padding: 3em;
+}

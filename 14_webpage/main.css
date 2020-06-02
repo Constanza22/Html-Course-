@@ -1,0 +1,32 @@
+
+
+
+section{
+    display: flex;
+    height: 100vh;
+    /*flex-flow: column;*/
+    align-items: center;
+    justify-content: center;
+    /*justify-items: center;*/
+    /*border: 10px hotpink solid;*/
+    background-color: darkslategray;
+    background-image: url("background-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+div{
+     display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+   border: 2px solid lightpink;
+}
+

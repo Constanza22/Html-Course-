@@ -1,0 +1,20 @@
+
+div{
+    border: hotpink groove 10px;
+    background-image: url("../dog (1).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+     width: 300px;
+height: 200px;
+}
+
+
+div{
+    border: lime groove 10px;
+    background-image: url("../dog (1).png");
+    background-position: 10px 300px;
+    background-size: 200px;
+
+    width: 500px;
+    height: 400px;
+}
