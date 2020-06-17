@@ -1,0 +1,25 @@
+body{
+    padding:0;
+    border:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#ppl{
+    border: 5px hotpink solid;
+    border-radius: 80%;
+    padding: 3px;
+
+}
+
+#icon-p{
+    fill:hotpink;
+
+}

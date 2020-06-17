@@ -1,0 +1,45 @@
+/*body, html{*/
+/*    border:0;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+fieldset{
+    border: 2px solid;
+    margin:30px;
+    /*display: flex;*/
+    /*flex-flow: row nowrap;*/
+}
+.c1{
+    width: 5rem;
+    height: 5rem;
+    margin: -1em;
+}
+
+.c1:hover{
+    fill: red;
+}
+
+.c2{
+    width: 8rem;
+    height: 8rem;
+    fill:red;
+    margin: -2em;
+}
+.c2:hover{
+    fill:black;
+}
+
+.c3{
+    width: 12rem;
+    height: 12rem;
+    margin-right: -2em;
+    margin-left: -2em;
+    margin-top: -1em;
+    margin-bottom: -2em;
+    fill: blue;
+}
+
+.c3:hover{
+    fill:yellowgreen;
+}

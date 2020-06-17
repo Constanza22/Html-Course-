@@ -1,0 +1,46 @@
+/*body,html{*/
+/*    border:0;*/
+/*    margin:0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    border: 2px hotpink solid;
+    box-sizing: border-box;
+
+}
+
+svg{
+    height: 50rem;
+    width: 50rem;
+    padding: 30px;
+    fill: transparent;
+    stroke: red;
+    margin:-10em;
+}
+
+.c1{
+    stroke-width: .2%;
+}
+
+.c2{
+    stroke-width: .4%;
+}
+
+.c3{
+    stroke-width: .8%;
+}
+
+.c4{
+    stroke-width: 1%;
+    fill: hotpink;
+}

@@ -1,0 +1,17 @@
+
+
+h1{
+    color:red;
+}
+
+.center>div{
+    height: 25vh;
+}
+
+h3{
+    width: 500px;
+}
+
+.center{
+    background-image: url("background-photo.jpg");
+}
