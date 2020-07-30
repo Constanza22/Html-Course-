@@ -1,0 +1,89 @@
+html,body, button{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+html{
+    font-size: 1vw;
+    color: #696d6f;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    /*formating*/
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem 4rem;
+    /*font*/
+    font-size: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top:2px solid lightgrey;
+    margin: 0 1rem;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.load1{
+    width: 3rem;
+    height: 3rem;
+    margin: 0 1rem;
+    fill: currentColor;
+    /*animation*/
+    animation-name: spiner;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spiner {
+    0%{ transform: rotate( 0deg)}
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    /*justify-content: flex-end;*/
+
+}
+
+button{
+    padding: 1rem;
+    /*width: 120px;*/
+    /*font*/
+    color:deepskyblue;
+    font-size: 2rem;
+    /*font-weight: bold;*/
+    margin: 0 1rem;
+}
+
+button:hover{
+    background-color: deepskyblue;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+

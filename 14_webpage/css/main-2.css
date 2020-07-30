@@ -1,0 +1,170 @@
+html{
+    color: whitesmoke;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    background-image: url("background-photo-mobile-devices.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: whitesmoke;
+    font-family: 'Cantarell', sans-serif;
+
+}
+
+header{
+    background-color:rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+header div, header nav{
+    width: 300px;
+    height: 80%;
+    /*margin:0 1rem;*/
+    display: flex;
+    align-items: center;
+    /*/*/*--->FORMATING*<----!*/
+    /*border: 2px solid red;*/
+    /*background-color: red;*/
+    /*justify-content: flex-start;*/
+
+}
+
+header nav, header nav a{
+    display: none;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*header a{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    !*justify-content: flex-start;*!*/
+/*    !*border: mediumvioletred 2px solid;*!*/
+
+/*}*/
+
+header div a:hover {
+    color:rgba(197, 227, 150, 0.56);
+}
+
+header div a h1 {
+    font-size: 1rem;
+     text-align: center;
+    align-self: center;
+}
+
+header h1{
+    font-family: sans-serif;
+    /*letter-spacing: 1.6px;*/
+    color: currentColor;
+    font-size: 1rem;
+    align-self: center;
+    text-align: center;
+    /*margin-left: -.2rem;*/
+}
+
+svg{
+    display: none;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.center>div{
+    height: 82vh;
+
+}
+
+.center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+button{
+    border:2px solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    color: black;
+
+}
+
+h1{
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+h2,h3{
+    font-size: 1rem;
+    text-align: center;
+}
+
+h3{
+/*border:2px solid hotpink;*/
+    width: 350px;
+}
+
+#blue-menu a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: .9rem;
+    padding: .2rem;
+    /*border: solid lawngreen 2px;*/
+    /*flex-direction: column;*/
+}
+
+#blue-menu .icon{
+    fill: currentColor;
+    stroke: currentColor;
+    /*border: 2px cornflowerblue solid;*/
+    margin: 0 1.1rem 0 1.2rem;
+}
+
+#blue-menu a{
+    border: 0.5px solid lightsteelblue;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #00a5fd;}
+
+
+#blue-menu a:hover{
+    background-color: #275bad;
+}
+
+#blue-menu .icon{
+    display: flex;
+}

@@ -1,0 +1,54 @@
+html,body, div, nav, button{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 2vh;
+    color: royalblue;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    border-right: 2px solid lightgrey;
+    width: fit-content;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+
+}
+
+/*.c1{*/
+/*    !*border:2px solid springgreen;*!*/
+/*    width: fit-content;*/
+/*    margin: .2rem;*/
+/*}*/
+
+
+button{
+    padding: 1.2rem;
+    margin: 0 0 0 .4rem;
+    width: 15rem;
+    background-color: transparent;
+    border:transparent;
+    cursor: pointer;
+    color: inherit;
+    text-align: initial;
+}
+
+button:hover{
+    background-color:rgba(156, 204, 226, 0.17);
+}
+button:active{
+    border:transparent;
+}
+
+

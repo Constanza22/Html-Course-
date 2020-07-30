@@ -1,0 +1,76 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 3vh;
+}
+
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#counter{
+    /*LAYOUT*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*FORMATING*/
+    width: 30.75rem;
+    height: 8.25rem;
+    border: 1px blue solid;
+    border-radius: 1.85rem;
+    margin: 0 1rem 0 1rem ;
+
+}
+
+
+
+#corner1{
+    /*LAYOUT*/
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-grow: 1;
+    /*FORMATING*/
+    border-right: 1px solid blue;
+    border-top-left-radius: 1.85rem;
+    border-bottom-left-radius: 1.85rem;
+    height: 8.15rem;
+    background-color: lightskyblue;
+
+}
+
+
+#middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid greenyellow;*/
+    flex-grow: 2;
+    height: 8.15rem;
+    /*height: 12.25rem;*/
+}
+
+#corner2{
+    /*LAYOUT*/
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-grow: 1;
+    /*FORMATING*/
+    border-left: 1px solid blue;
+    border-top-right-radius: 1.85rem;
+    border-bottom-right-radius: 1.85rem;
+    height: 8.15rem;
+    background-color: lightskyblue;
+
+}
+
+#corner1:hover, #corner2:hover{
+    background-color: royalblue;
+}

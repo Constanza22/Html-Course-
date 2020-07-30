@@ -1,0 +1,151 @@
+
+#g-back{
+    background-image: url("g_s_03_five.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+header a{
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #eae2e2;
+    text-decoration: none;
+
+}
+
+.button{
+    font-family: "Times New Roman";
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px 20px;
+    margin: .4rem;
+    border: 1px solid #eae2e2;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: rgba(199, 199, 199, 0.22);
+}
+
+span{
+    font-family: "Times New Roman";
+    font-size: .8rem;
+    color: #eae2e2;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4.5rem;
+    color: whitesmoke;
+    cursor: pointer;
+    line-height: 3.9rem;
+}
+
+h1:hover{
+    color: red;
+}
+
+p{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.5rem;
+    /*font-weight: normal;*/
+    /*text-align: center;*/
+    color: whitesmoke;
+    width: 50%;
+    margin: 2rem auto;
+}
+
+button{
+    width: 210px;
+    height: 40px;
+    margin: .6rem auto;
+    border: none;
+    background-color: red;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+nav div {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #eae2e2 ;
+    padding:.5rem.2rem;
+    width: 120px;
+
+
+}
+
+nav div:hover{
+    /*border: 2px solid red;*/
+    border-radius: 5px;
+    background-color: rgba(199, 199, 199, 0.22);
+    cursor: pointer;
+
+}
+
+
+/*@@@MEDIA QUERIES*/
+
+
+@media screen and (max-width:600px) {
+    #g-back{
+        margin: 0;
+        background-image: url("g_s_03_five_small.jpg");
+        background-position: center;
+        height: 100vh;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    header a{
+        font-size: 1.3rem;
+    }
+
+    h1{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    p{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1150px){
+    #g-back{
+        margin: 0;
+        height: 100vh;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    header a{
+        font-size: 1.3rem;
+    }
+
+    h1{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    p{
+        width: 80%;
+    }
+}
+
+@media screen and (max-height: 640px){
+    #g-back{
+        height: auto;
+    }
+}
+

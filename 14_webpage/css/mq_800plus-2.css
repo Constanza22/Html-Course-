@@ -1,0 +1,123 @@
+
+
+header{
+    background-color:rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header div, header nav{
+    width: 300px;
+    height: 80%;
+    margin:0 1rem;
+    display: flex;
+    /*!*!*--->FORMATING*<----!*/
+    /*border: 2px solid red;*/
+    /*background-color: red;*/
+    align-items: center;
+    /*justify-content: flex-start;*/
+}
+
+header>div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header a{
+    display: flex;
+    align-items: center;
+    /*justify-content: flex-start;*/
+    /*border: mediumvioletred 2px solid;*/
+
+}
+
+header div a:hover {
+    color:rgba(197, 227, 150, 0.56);
+}
+
+header div a h1 {
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+header h1{
+    font-family: sans-serif;
+    /*letter-spacing: 1.6px;*/
+    color: currentColor;
+    font-size: 1rem;
+    margin-left: -.2rem;
+
+}
+
+.code{
+    /*stroke: white;*/
+    fill: currentColor;
+    /*width: 80px;*/
+    height: 80%;
+}
+
+/*.code:hover{*/
+/*    fill: rgba(197, 227, 150, 0.56);*/
+/*}*/
+
+header nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 80%;
+    /*border: 2px deepskyblue solid;*/
+
+}
+
+header nav a{
+    padding: 0 1rem;
+}
+
+.icon{
+    /*width: 40px;*/
+    height: 100%;
+    padding: .2rem;
+    fill: whitesmoke;
+    /*border: 1px solid blue;*/
+}
+
+/* .icon:hover{*/
+/*     background-color: dimgray;*/
+/*     border-radius: 5px;*/
+/*}*/
+
+
+header nav a:hover{
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
+
+svg, header nav a {
+    display: flex;
+}
+
+
+.center>div{
+    height: 25vh;
+}
+
+h3{
+    width: 500px;
+}
+
+.center{
+    background-image: url("background-photo.jpg");
+}
+
+#blue-menu .icon, #blue-menu a{
+    display: none;
+}

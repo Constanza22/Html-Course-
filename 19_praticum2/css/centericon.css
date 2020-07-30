@@ -1,0 +1,58 @@
+html,body,div,button{
+    padding: 0;
+    border:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*border:2px solid red;*/
+}
+
+.phones{
+    height: 8rem;
+    width: 8rem;
+    /*border-radius: 20rem;*/
+    fill: rgba(147, 179, 241, 0.44);
+}
+
+
+button{
+    border-radius: 20rem;
+    border:1px solid rgba(193, 193, 193, 0.62);
+    box-shadow: 0.3px 0.3px 9px rgba(227, 227, 227, 0.62), -0.3px -0.3px 10px rgba(224, 222, 222, 0.58);
+
+    width: 18rem;
+    height: 18rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+button:hover{
+    background-color: rgba(147, 179, 241, 0.44);
+    fill: white;
+    border: none;
+    box-shadow: none;
+}
+.phones:hover{
+    fill:whitesmoke;
+}
+
+button:hover{
+    border-radius: 20rem;
+}
+button:visited{
+    border: transparent;
+}
+button:active{
+
+}
+button:link{
+    border:2px solid hotpink;
+}
+

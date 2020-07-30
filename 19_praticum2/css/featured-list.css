@@ -1,0 +1,55 @@
+html,body, div{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 2vh;
+    color: rgba(141, 135, 135, 0.8);
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#card{
+    /*layout*/
+    display: flex;
+    flex-direction: column;
+    /*formating*/
+    border:1px solid rgba(191, 190, 190, 0.76);
+    margin: 0 2rem;
+    padding:1rem;
+    border-radius: 20px;
+}
+.calendar, .envelope, .meter{
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid rgba(191, 190, 190, 0.76);
+    padding: 1rem 2rem;
+    max-width: 40rem;
+}
+
+.envelope{
+    border-bottom: none;
+}
+
+h1,h2,h3{
+    padding: .4rem .6rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.icon{
+    width: 6rem;
+    height: 6rem;
+    fill: rgba(156, 205, 236, 0.69);
+    stroke: rgba(156, 205, 236, 0.69);
+}
+

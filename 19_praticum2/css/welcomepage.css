@@ -1,0 +1,64 @@
+html,body,button{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 1vh;
+    color: #65707d;
+}
+
+.smiles{
+    width: 10rem;
+    height: 10rem;
+    fill: lightsteelblue;
+    stroke: lightsteelblue;
+    animation-name: spiner;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes spiner {
+    0%{ transform: rotate( 0deg)}
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#welcome{
+    /*Layout*/
+    display: flex;
+    flex-flow: column nowrap ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*formatin*/
+    margin: 1rem;
+    text-align: center;
+}
+
+h1{
+    font-size: 6rem;
+    margin-top: -.2rem;
+}
+
+h2{
+    margin-top: -2rem;
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+button{
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 5px;
+    background-color: deepskyblue;
+    font-size: 3rem;
+    color: white;
+
+}

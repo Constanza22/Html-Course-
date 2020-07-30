@@ -1,0 +1,67 @@
+header div a{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: black;
+}
+
+header div a:hover{
+    color:  #0b59f5;
+}
+
+nav a{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-transform: uppercase;
+    font-size: .85rem;
+    letter-spacing: .3px;
+    color: #7404bb;
+    height: 58px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+
+nav a:hover{
+    background-color: rgba(255, 247, 222, 0.85);
+    color: #0b59f5;
+}
+
+section h1{
+    font-size: 2.3rem;
+    letter-spacing: 1.2px;
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button{
+    margin: 0 0 2rem 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgba(28, 28, 28, 0.95);
+    background-color: rgba(29, 29, 29, 0.95);
+    font-size: 1.1rem;
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+}
+
+button:hover{
+    background-color: deepskyblue;
+    border: deepskyblue;
+    cursor: pointer;
+}
+
+#bottom-text{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 .4rem;
+}
+
+footer{
+    border: 2px solid rgba(28, 28, 28, 0.95);
+    background-color: rgba(29, 29, 29, 0.95);
+    color: #808080;
+    font-family: 'Quicksand', sans-serif;
+    font-size: .8rem;
+}

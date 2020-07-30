@@ -1,0 +1,29 @@
+html,body{
+    padding: 0;
+    margin-top: 0;
+
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-image: repeating-conic-gradient(yellowgreen,hotpink,purple,cornflowerblue,coral);
+    color: white;
+    cursor: pointer;
+}
+
+.icon{
+    width:3rem;
+    height: 3rem;
+    fill: white;
+}

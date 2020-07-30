@@ -1,0 +1,55 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    border:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 4vw;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+div{
+    width: 60%;
+    border: 2px solid red;
+}
+
+
+.icon{
+    height: 5rem;
+    width: 5rem;
+    stroke:currentColor;
+    fill: currentColor;
+}
+
+.circle{
+    font-size: 8rem;
+    left: 0;
+    position: relative;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function:linear;
+    animation-play-state: running;
+}
+
+@keyframes move {
+
+    0%{
+       left: 0;
+    }
+
+    100%{
+        left: 65%;
+    }
+
+}

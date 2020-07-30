@@ -1,0 +1,47 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 3vh;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+
+
+}
+
+#tabs{display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid gray;
+    width: 40rem;
+    /*padding: 1rem;*/
+    margin: 1rem;
+}
+
+button {
+    flex-grow: 1;
+    background-color: white;
+    border: 0;
+    font-size: 1.4rem;
+    padding: 1rem;
+    cursor: pointer;
+    border-bottom: 2px transparent;
+}
+
+button:hover{
+    border-bottom: 3px deepskyblue solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
