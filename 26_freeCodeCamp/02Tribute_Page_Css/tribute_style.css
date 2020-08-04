@@ -6,7 +6,7 @@
     font-size: 10rem;
     font-family: 'Teko', sans-serif;
     color: rgba(225,225,225,.1);
-    background-image: url("img/red.gif");
+    background-image: url("../img/red.gif");
     background-repeat: repeat;
     -webkit-background-clip: text;
     /*animation: animate 15s linear infinite forwards, grows 10s normal forwards;*/
@@ -52,7 +52,7 @@
     text-align: center;
     font-family: 'Teko', sans-serif;
     color: rgba(225,225,225,.1);
-    background-image: url("img/red.gif");
+    background-image: url("../img/red.gif");
     background-repeat: repeat;
     -webkit-background-clip: text;
 }
@@ -258,7 +258,7 @@ li{
     }
 }
 #enter-img2 {
-    background-image: url("img/enter-the-void-2009.png");
+    background-image: url("../img/enter-the-void-2009.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -294,7 +294,7 @@ li{
 #love-tittle>h1{
     font-family: 'Teko', sans-serif;
     /*color: rgba(225,225,225,.1);*/
-    background-image: url("img/lengua.jpeg");
+    background-image: url("../img/lengua.jpeg");
     background-repeat: repeat;
     -webkit-background-clip: text;
     animation: animate 15s linear infinite;

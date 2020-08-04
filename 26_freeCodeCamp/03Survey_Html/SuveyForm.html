@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Surveyform.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="layer">
+
+    <header>
+<h1 id="title">FreeCodeCamp<br> Survey Form</h1>
+    </header>
+
+    <section><h2 data-aos="zoom-in">Thank you for taking the time to help us improve the platform</h2></section>
+
+<main>
+             <form action="" id="survey-form">
+              <div class="one-group">
+              <label for="name">Name<input type="text" id="name" name="fname"></label>
+              <label for="email">Email<input type="email" id="email" placeholder="galawantstobe@gmail.com"></label>
+              <label for="age">Age<input type="number" id="age" name="age" min="1" max="100"></label>
+              <label for="number">Family Members<input type="text" id="number" max="100" min="0" pattern="[1-100]"></label></div>
+
+<label for="role" class="role"><span>Which option best describes your current role?</span>
+              <select name="role" id="role">
+                  <option value="" disabled>item000001</option>
+                  <option value="" class="white">item000002</option>
+                  <option value="">item000003</option>
+                  <option value="">item000004</option>
+                  <option value="">item000005</option>
+                  <option value="">item000006</option>
+              </select></label>
+
+          <div id="rigth">
+          <label for="" id="radio"><span>Would you recommend freeCodeCamp to a friend?</span>
+          <label for="df"><input type="radio" id="df" name="recommend"><span>Definitely</span></label>
+          <label for="Mb"><input type="radio" id="Mb" name="recommend"><span>Maybe</span></label>
+              <label for="NS"><input type="radio" id="NS" name="recommend"><span>Not Sure</span></label></label></div>
+ </form>
+
+           <form class="left-side">
+               <div class="layer">
+          <label for="house" id="game">Game of thrones
+          <select name="" id="house">
+              <optgroup label="Stark" onfocus="">
+                  <option value="Samsa">Samsa</option>
+                  <option value="Arya">Arya</option>
+                  <option value="Brian">Brian</option>
+              </optgroup>
+              <optgroup label="Lanister">
+                  <option value="Cersei">Cersei</option>
+                  <option value="Jaime">Jaime</option>
+                  <option value="Tyron">Tyron</option>
+              </optgroup>
+              <optgroup label="Targarien">
+                  <option value="Danerys">Danerys</option>
+                  <option value="Eagon">Eagon</option>
+                  <option value=""></option>
+              </optgroup>
+          </select> </label>
+
+
+          <div id="amorcito"><span>Amor amor amor</span>
+          <label for="one"><input type="checkbox" id="one" value="one"><span>One</span></label>
+              <label for="two"><input type="checkbox" id="two" value="one"><span>Two</span></label>
+              <label for="Three"><input type="checkbox" id="Three" value="one"><span>Three</span></label>
+              <label for="Four"><input type="checkbox" id="Four" value="one"><span>Four</span></label>
+              <label for="five"><input type="checkbox" id="five" value="one"><span>Five</span></label>
+              <label for="six"><input type="checkbox" id="six" value="one"><span>Six</span></label></div></label>
+
+              <label for="comments" id="text-tarea"><span>Any comments or suggestions?</span>
+              <textarea name="coments" id="comments" cols="45" rows="8">
+                   </textarea>
+
+          <label for="submit"></label>
+          <input type="submit" id="submit"></label>
+</div>
+
+   </form>
+
+<footer>
+    <a href="https://twitter.com/galawantstobe">
+        <img id="Logo_FIXED" src="../img/Twitter-Logo.png" alt="">
+        <span>@galawantstobe</span></a></footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 3000,
+        once: true,
+    });
+
+</script>
+</main>
+</body>
+</html>

@@ -219,7 +219,7 @@ a>p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("img/image-w1280.jpg");
+    background-image: url("../img/image-w1280.jpg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -352,7 +352,7 @@ article{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("img/love2.jpeg");
+    background-image: url("../img/love2.jpeg");
     /*backdrop-filter: blur(3px);*/
     background-size: cover;
     background-position: center;
@@ -370,7 +370,7 @@ article{
 
 }
 .love-img{
-    background-image: url("img/love2.jpeg");
+    background-image: url("../img/love2.jpeg");
     background-color: rgba(255, 255, 255, 0.3);
     filter: none;
     background-position: center;
