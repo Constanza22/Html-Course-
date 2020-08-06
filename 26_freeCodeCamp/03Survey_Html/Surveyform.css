@@ -11,7 +11,7 @@ header{
     /*justify-content: center;*/
     width: 100%;
     height: 700px;
-    background-image: url("pe4.jpeg");
+    background-image: url("pexels-photoo.jpg");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -56,15 +56,16 @@ section{
     align-items: center;
 }
 
-main{
+#survey-form{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-bottom: 5rem;
     /*border: 2px solid red;*/
 }
 
 
-#survey-form{
+#left-side{
      display: flex;
      justify-content: center;
      align-items: center;
@@ -79,13 +80,13 @@ main{
 
  }
 
-.left-side{
+#right-side{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     /*border: 2px solid red;*/
-    background-color: #D9D9D9;
+    background-color: #A692A4;
     color: rgb(22, 24, 24);
     width: 500px;
     height: 550px;
@@ -104,25 +105,34 @@ main{
     header h2{
         font-size: 2rem;
     }
-    #survey-form{
+    #left-side{
         width: 600px;
     }
+    #right-side{
+        width: 600px;
 
+    }
     section{
         width: 100%;
     }
 
-    .left-side{
-        width: 600px;
 
-    }
-    #name, #email, #age,#number, #role, .radio, #game,#house, #amorcito{
+    #name, #email, #age,#number, #dropdown, .radio, #game,#house, #amorcito{
         width: 350px;
     }
 
-    /*#radio{*/
-    /*    margin-left: 6rem;*/
-    /*}*/
+    .role>span, #radio>span{
+        margin-left: 1.5rem;
+    }
+
+    #radio{
+       /*width: 360px;*/
+       /* margin-left: -2rem;*/
+        margin-right: 2.1rem;
+        /*margin-top: 4rem;*/
+        /*width: auto;*/
+        /*border: 2px solid red;*/
+    }
 }
 
 
@@ -133,17 +143,18 @@ header>h1{
     margin-top: 10rem;
     /*font-size: 2rem;*/
     margin-left: 2rem;
+    color: white;
 }
 
-section h2{
+section p{
     display: flex;
     flex-flow: column row;
     font-size: 2rem;
     text-align: center;
     font-style: italic;
-    background-color: #BF6734;
+    background-color: #382740;
     padding: 1rem;
-    color:#262626;
+    color:white;
 }
 
 
@@ -155,7 +166,7 @@ section h2{
 }
 
 
-#name, #email, #age,#number, #role{
+#name, #email, #age,#number, #dropdown{
     outline: none;
     width: 300px;
     height: 24px;
@@ -164,19 +175,19 @@ section h2{
     align-items: center;
     margin-left: auto;margin-right: auto;
     margin-top: .2rem; margin-bottom: .4rem;
-    border:3px solid #D9D9D9;
+    border:3px solid white;
     border-top: none;
     border-left: none; border-right: none;
     background-color:transparent;
-    color: #A6775B;
+    color: white;
     font-size: .9rem;
 }
-#name:hover, #email:hover, #age:hover,#number:hover, #role:hover, #radio:hover{
-    border-color: #A6775B;
+#name:hover, #email:hover, #age:hover,#number:hover, #dropdown:hover, #radio:hover{
+    border-color: #573C73;
 }
 
 .one-group{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .role{
@@ -188,9 +199,7 @@ section h2{
     width: 350px;
     /*margin-left: 5.5rem;*/
 }
-.role>span, #radio>span{
-    margin-left: 1.5rem;
-}
+
 #role{
     outline: none;
     margin-top: .6rem;
@@ -198,11 +207,16 @@ section h2{
     height: 28px; color: #ffffff;
     border:3px solid #D9D9D9;
 }
-#role option{
-    background-color: #A6775B;
-    outline: none;
+.role>span, #dropdown>span{
+    margin-left: 1.4rem;
 }
-#role, #house{
+
+#dropdown option, #house optgroup{
+    background-color: #594F59;
+    outline: none;
+    color: white;
+}
+#dropdown, #house{
       appearance:none;
      -webkit-appearance:none;
      -moz-appearance:none;
@@ -215,7 +229,7 @@ section h2{
 }
 
 option:hover{
-    background-color:rgba(255, 64, 64, 1); ;
+    background-color:rgba(255, 64, 64, 1);
 }
 
 #radio{
@@ -231,13 +245,18 @@ option:hover{
     display: flex;
     flex-direction: column;
     background-color: transparent;
-    margin-left: 3.4rem;
+    margin-left:2rem;
+    width: 340px;
 }
 
 #radio>span{
     width: auto;
     line-height: 1.8rem;
 }
+
+/*.role>span, #radio>span{*/
+/*    margin-left: 6rem;*/
+/*}*/
 /*#rigth{*/
 /*    display: flex;*/
 /*    justify-content: center;*/
@@ -257,12 +276,12 @@ input[type='radio']:after{
     left: -1px;
     position: relative;
     /*background-color: #d1d3d1;*/
-    background-color:#D9D9D9;
+    background-color:white;
     content: '';
     display: inline-block;
     visibility: visible;
     /*border: 2px solid white;*/
-    border:2px solid #D9D9D9;
+    border:2px solid white;
 
 }
 
@@ -273,7 +292,7 @@ input[type='radio']:checked:after {
     top: -2px;
     left: -1px;
     position: relative;
-    background-color: #A6775B;;
+    background-color: #573C73;
     content: '';
     display: inline-block;
     visibility: visible;
@@ -287,8 +306,8 @@ span{
 
 #game{
     outline: none;
-    margin-top: 2rem;
-    margin-bottom: .4rem;
+    margin-top: 3rem;
+    margin-bottom: .8rem;
     width: 350px;
     height: 28px;
     margin-left: 1.7rem;
@@ -306,13 +325,13 @@ span{
 }
 
 #house:hover{
-    border-color: #A6775B;
+    border-color: #573C73;
 }
 
 #amorcito{
      display: flex;
      flex-direction: column;
-     margin-top: 1.6rem;
+     margin-top:2.5rem;
     margin-left: 1.5rem;
     width: 300px;
 }
@@ -338,7 +357,6 @@ input[type='checkbox']:after{
     content: '';
     display: inline-block;
     visibility: visible;
-    /*border: 2px solid white;*/
     border:2px solid rgb(22, 24, 24);
 
 }
@@ -350,7 +368,7 @@ input[type='checkbox']:checked:after {
     top: -2px;
     left: -1px;
     position: relative;
-    background-color: #A6775B;;
+    background-color: #573C73;
     content: '';
     display: inline-block;
     visibility: visible;
@@ -366,14 +384,19 @@ input[type='checkbox']:checked:after {
     margin-bottom: 1rem;
 }
 
+#text-tarea>span{
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+}
+
 textarea{
     background-color: rgba(222, 222, 222, 0.37);
     /*background-image: url("da.jpg");*/
     /*filter: opacity(80%);*/
     background-position: top center;
-    color: #d93b3b;
+    color: rgb(22, 24, 24);
     /*border: 2px solid #092050;*/
-    border: 3px solid #A6775B;
+    border: 3px solid #573C73;
     /*font-size: 1.5rem;*/
     font-weight: bold;
     outline: none;
@@ -381,7 +404,7 @@ textarea{
 }
 
 textarea:hover{
-  filter: opacity(90%); border: 2px solid #0d3a99;
+  filter: opacity(90%); border-color: #523659;
 }
 
 
@@ -394,7 +417,7 @@ textarea:hover{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     transition: background-color 0.5s ease;
-    margin-top: .4rem;
+    margin-top: 1rem;
 }
 
 #submit:hover{
@@ -402,40 +425,41 @@ textarea:hover{
     color: white;
 }
 
-footer{
-    display: flex;
-    align-items: center;
-    /*top: 0;*/
-    bottom: 0;
-    left: 0;
-    /*background-color: rgb(2, 2, 2);*/
-    width: 100%;
-    color: white;
-    height: 80px;
-    font-size: 1rem;
-    font-family: 'Abel', sans-serif;
-    /*border:2px solid red;*/
-}
+/*footer{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    !*top: 0;*!*/
+/*    !*bottom: 0;*!*/
+/*    !*left: 0;*!*/
+/*    !*margin-top: 4rem;*!*/
+/*    !*background-color: rgb(2, 2, 2);*!*/
+/*    width: 100%;*/
+/*    color: white;*/
+/*    height: 80px;*/
+/*    font-size: 1rem;*/
+/*    font-family: 'Abel', sans-serif;*/
+/*    !*border:2px solid red;*!*/
+/*}*/
 
-#Logo_FIXED{
-    height: 30px;
-    width: 40px;
-}
-footer a {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 0 8rem;
-    flex-shrink: 2;
-    text-decoration: none;
-    color: black;
+/*#Logo_FIXED{*/
+/*    height: 30px;*/
+/*    width: 40px;*/
+/*}*/
+/*footer a {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    flex-direction: row;*/
+/*    justify-content: flex-start;*/
+/*    margin: 0 8rem;*/
+/*    flex-shrink: 2;*/
+/*    text-decoration: none;*/
+/*    color: black;*/
 
-}
+/*}*/
 
-footer a span {
+/*footer a span {*/
 
-    /*color: white;*/
-    display: flex;font-size: .9rem;
-    text-decoration: none;
-}
+/*    !*color: white;*!*/
+/*    display: flex;font-size: .9rem;*/
+/*    text-decoration: none;*/
+/*}*/
