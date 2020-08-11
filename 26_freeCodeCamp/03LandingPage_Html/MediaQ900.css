@@ -1,0 +1,151 @@
+@media screen and (min-width:900px){
+    nav{
+        /*border: 2px solid red;*/
+        display: flex;
+        /*flex-direction: column;*/
+        justify-content:center;
+        align-items:center;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: bold;
+        /*margin-top: .rem;*/
+        cursor: pointer;
+        padding: 1rem;
+        margin-left: -2.6rem;
+
+
+    }
+    nav a{
+        padding: .2rem;
+        text-decoration:none;
+        color: whitesmoke;
+        cursor: pointer;
+        margin-left: 1rem;
+        border-bottom: 4px solid transparent;
+    }
+
+    nav a:hover{
+        border-bottom-color:#8B5360;;
+        cursor: pointer;
+
+    }
+    .gray{
+        background-image: url("Makeup2.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 500px;
+        /*margin-top:7rem;*/
+        /*margin-left: 1rem;*/
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        color: whitesmoke;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 4px;
+        font-size: 1rem;
+    }
+
+    section div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /*border: 2px solid blue;*/
+    }
+
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /*height: 360px;*/
+        /*border: 2px solid red;*/
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+   #text1{
+        background-color: #D9B1A3;
+        /*border: 2px solid red;*/
+        width: 50%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #video-1{
+        /*background-color: #BF8C80;*/
+        background-color: #AEBABF;
+        /*border: 2px solid red;*/
+        width: 50%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cursos{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #cursos h2{
+        display: none;
+    }
+
+    #cursos-text{
+        /*border: 2px solid red;*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+
+    #cursos-text p{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        width: 20%;
+        font-weight: bold;
+        padding: .6rem;
+        line-height: 1.3rem;
+    }
+
+    #productos{
+        display: flex;
+        flex-direction: row;
+        /*border:2px solid red;*/
+        height: 600px;
+        width: 100%;
+        margin-top: 10rem;
+    }
+
+    .marcas{
+        display: flex;
+        flex-direction: row;
+        color: whitesmoke;
+    }
+
+    .slide-wrap{
+        width: 50%;
+    }
+
+    #compra-aqui{
+        width: 50%;
+    }
+
+    form{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+}
+
+
+

@@ -1,0 +1,465 @@
+body, div, form, section, header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    /*flex-flow: column wrap;*/
+    /*justify-content: center;*/
+    width: 100%;
+    height: 700px;
+    background-image: url("pexels-photoo.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*border: 2px solid red;*/
+    color: rgb(22, 24, 24);
+    font-family: 'Viga', sans-serif;
+    font-size: 1rem;
+}
+
+body{
+    width: 100%;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*!*align-items: center;*!*/
+    /*height: 100vh;*/
+    /*background-image: url("../crop.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.layer {
+    /*background-color: rgba(239, 156, 131, 0.72);*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+
+
+section{
+    /*border: 2px solid red;*/
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#survey-form{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 5rem;
+    /*border: 2px solid red;*/
+}
+
+
+#left-side{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     /*border:2px solid rgba(255, 64, 64, 1);*/
+     background-color: #262626;
+     width: 500px;
+     height: 550px;
+     color: white;
+     font-weight: bold;
+     /*margin: 0 auto;*/
+
+ }
+
+#right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid red;*/
+    background-color: #A692A4;
+    color: rgb(22, 24, 24);
+    width: 500px;
+    height: 550px;
+    font-weight: bold;
+    /*margin: 0 auto;*/
+
+}
+
+@media screen and (min-width: 900px){
+
+    header h1{
+        font-size: 6rem;
+         width: 100%;
+    }
+
+    header h2{
+        font-size: 2rem;
+    }
+    #left-side{
+        width: 600px;
+    }
+    #right-side{
+        width: 600px;
+
+    }
+    section{
+        width: 100%;
+    }
+
+
+    #name, #email, #age,#number, #dropdown, .radio, #game,#house, #amorcito{
+        width: 350px;
+    }
+
+    .role>span, #radio>span{
+        margin-left: 1.5rem;
+    }
+
+    #radio{
+       /*width: 360px;*/
+       /* margin-left: -2rem;*/
+        margin-right: 2.1rem;
+        /*margin-top: 4rem;*/
+        /*width: auto;*/
+        /*border: 2px solid red;*/
+    }
+}
+
+
+
+/*---------------------------------------------------------------------------*/
+
+header>h1{
+    margin-top: 10rem;
+    /*font-size: 2rem;*/
+    margin-left: 2rem;
+    color: white;
+}
+
+section p{
+    display: flex;
+    flex-flow: column row;
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+    background-color: #382740;
+    padding: 1rem;
+    color:white;
+}
+
+
+#rigth, #radio{
+    display: flex;
+    flex-direction: column;
+    /*justify-content:center;*/
+    /*align-items: center;*/
+}
+
+
+#name, #email, #age,#number, #dropdown{
+    outline: none;
+    width: 300px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;margin-right: auto;
+    margin-top: .2rem; margin-bottom: .4rem;
+    border:3px solid white;
+    border-top: none;
+    border-left: none; border-right: none;
+    background-color:transparent;
+    color: white;
+    font-size: .9rem;
+}
+#name:hover, #email:hover, #age:hover,#number:hover, #dropdown:hover, #radio:hover{
+    border-color: #573C73;
+}
+
+.one-group{
+    margin-top: 1rem;
+}
+
+.role{
+    margin-top: .4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    /*margin-left: 5.5rem;*/
+}
+
+#role{
+    outline: none;
+    margin-top: .6rem;
+    width: 300px;
+    height: 28px; color: #ffffff;
+    border:3px solid #D9D9D9;
+}
+.role>span, #dropdown>span{
+    margin-left: 1.4rem;
+}
+
+#dropdown option, #house optgroup{
+    background-color: #594F59;
+    outline: none;
+    color: white;
+}
+#dropdown, #house{
+      appearance:none;
+     -webkit-appearance:none;
+     -moz-appearance:none;
+     background-image: url("arrow.png");
+     background-repeat: no-repeat, repeat;
+     background-position: right .7em top 50%, 0 0;
+     background-size: .65em auto, 100%;
+    background-color: transparent;
+
+}
+
+option:hover{
+    background-color:rgba(255, 64, 64, 1);
+}
+
+#radio{
+    /*outline: none;*/
+    /*width: 300px;*/
+    /*height: 24px;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*margin: .4rem auto;*/
+    margin-top: .6rem;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin-left:2rem;
+    width: 340px;
+}
+
+#radio>span{
+    width: auto;
+    line-height: 1.8rem;
+}
+
+/*.role>span, #radio>span{*/
+/*    margin-left: 6rem;*/
+/*}*/
+/*#rigth{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+#df,#Mb,#NS{
+    margin-top: .6rem;
+    margin-left: 1.5rem;
+}
+/*--------------------RADIO COLOR STYLE--------------------------------*/
+input[type='radio']:after{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    /*background-color: #d1d3d1;*/
+    background-color:white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    /*border: 2px solid white;*/
+    border:2px solid white;
+
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #573C73;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    /*border: 2px solid #ffffff;*/
+    /*border:2px solid rgba(255, 64, 64, 1);*/
+}
+/*----------------------------------------------------------------------*/
+span{
+    margin-left: 5px;
+}
+
+#game{
+    outline: none;
+    margin-top: 3rem;
+    margin-bottom: .8rem;
+    width: 350px;
+    height: 28px;
+    margin-left: 1.7rem;
+    display: flex;
+    flex-direction: column;
+
+}
+#house{
+    margin-top: .6rem;
+    width: 300px;
+    height: 30px;
+    /*padding: .4rem;*/
+    border:3px solid rgb(22, 24, 24);
+    outline: none;
+}
+
+#house:hover{
+    border-color: #573C73;
+}
+
+#amorcito{
+     display: flex;
+     flex-direction: column;
+     margin-top:2.5rem;
+    margin-left: 1.5rem;
+    width: 300px;
+}
+
+#amorcito>span{
+    margin-bottom: .4rem;
+}
+
+#one,#two,#Three,#Four,#five,#six{
+    margin-bottom: .6rem;
+    margin-left: .4rem;
+}
+
+input[type='checkbox']:after{
+    width: 15px;
+    height: 15px;
+    /*border-radius: 15px;*/
+    top: -2px;
+    left: -1px;
+    position: relative;
+    /*background-color: #d1d3d1;*/
+    background-color:rgb(22, 24, 24);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border:2px solid rgb(22, 24, 24);
+
+}
+
+input[type='checkbox']:checked:after {
+    width: 15px;
+    height: 15px;
+    /*border-radius: 15px;*/
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #573C73;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    /*border: 2px solid #ffffff;*/
+    /*border:2px solid rgba(255, 64, 64, 1);*/
+}
+
+#text-tarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#text-tarea>span{
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+textarea{
+    background-color: rgba(222, 222, 222, 0.37);
+    /*background-image: url("da.jpg");*/
+    /*filter: opacity(80%);*/
+    background-position: top center;
+    color: rgb(22, 24, 24);
+    /*border: 2px solid #092050;*/
+    border: 3px solid #573C73;
+    /*font-size: 1.5rem;*/
+    font-weight: bold;
+    outline: none;
+    position: relative;
+}
+
+textarea:hover{
+  filter: opacity(90%); border-color: #523659;
+}
+
+
+#submit{
+    width: 120px;
+    height: 45px;
+    border-radius: 45%;
+    border: 2px solid rgb(22, 24, 24);;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+    margin-top: 1rem;
+}
+
+#submit:hover{
+    background-color:rgb(22, 24, 24);
+    color: white;
+}
+
+/*footer{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    !*top: 0;*!*/
+/*    !*bottom: 0;*!*/
+/*    !*left: 0;*!*/
+/*    !*margin-top: 4rem;*!*/
+/*    !*background-color: rgb(2, 2, 2);*!*/
+/*    width: 100%;*/
+/*    color: white;*/
+/*    height: 80px;*/
+/*    font-size: 1rem;*/
+/*    font-family: 'Abel', sans-serif;*/
+/*    !*border:2px solid red;*!*/
+/*}*/
+
+/*#Logo_FIXED{*/
+/*    height: 30px;*/
+/*    width: 40px;*/
+/*}*/
+/*footer a {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    flex-direction: row;*/
+/*    justify-content: flex-start;*/
+/*    margin: 0 8rem;*/
+/*    flex-shrink: 2;*/
+/*    text-decoration: none;*/
+/*    color: black;*/
+
+/*}*/
+
+/*footer a span {*/
+
+/*    !*color: white;*!*/
+/*    display: flex;font-size: .9rem;*/
+/*    text-decoration: none;*/
+/*}*/
