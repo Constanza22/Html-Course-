@@ -66,6 +66,13 @@
         margin-top: 5rem;
     }
 
+    #text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
    #text1{
         background-color: #D9B1A3;
         /*border: 2px solid red;*/
@@ -143,6 +150,19 @@
         display: flex;
         flex-direction: row;
         width: 100%;
+    }
+    .contactos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .email-submit{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        height: 150px;
     }
 
 }
