@@ -1,0 +1,533 @@
+body, html, div{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+#column{
+    display: flex;
+    flex-direction: column;
+}
+
+.brush{
+    background-color: #191826;
+    background-image: url("../brush.jpeg");
+    background-position: bottom center;
+    width: 250px;
+    height: 500px;
+    margin-top: 7rem;
+}
+.chocolate{
+    height: 100px;
+    width: 250px;
+    background-color: #8B5360;
+}
+
+.pink{
+    background-color: pink;
+    background-image: url("../Makeup2.jpeg");
+    filter: opacity(50%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 590px;
+    height: 600px;
+    margin-top: 7rem;
+
+
+}
+nav{
+    /*border: 2px solid red;*/
+    padding: .6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    /*background-color: rgba(231, 231, 231, 0.84);*/
+   background-image: url("../brush.jpeg");
+    background-size: cover;
+    background-position:  top center;
+    z-index: 2;
+}
+
+nav a{
+    /*margin-top: .9rem;*/
+    padding: .3rem;
+    text-decoration:none;
+    color: whitesmoke;
+    cursor: pointer;
+    border-bottom: 4px solid transparent;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    border-bottom-color:#8B5360;
+    cursor: pointer;
+
+}
+
+.center{
+    position: absolute;
+    /*background-color: grey;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid red;*/
+}
+
+.gray, #header-img{
+    /*background-image: url("../Makeup2.jpeg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    width: 350px;
+    height: 500px;
+    margin-top:7rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+#header-img{
+    margin-top: 6.25rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*height: 360px;*/
+    /*border: 2px solid red;*/
+    width: 100%;
+    margin-top: 5rem;
+    background-color: #AEBABF;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#text1{
+    background-color: #D9B1A3;
+    /*border: 2px solid red;*/
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#video-1{
+    background-color: transparent;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+video{
+    width: 300px;
+    height: 400px;
+    outline: none;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+#text{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+section h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    margin-left: .5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: #8B5360;
+}
+
+section h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #8B5360;
+    font-weight: bold;
+}
+
+section p{
+    margin-top: -1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+button{
+    width: 160px;
+    height: 50px;
+    border: 2px solid #8B5360;
+    outline: none;
+    color: whitesmoke;
+    background-color: #8B5360;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+#cursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#cursos>div{
+    margin-top: 10rem;
+    height: 260px;
+    width: 260px;
+    border-radius: 100%;
+    background-color:deeppink;
+}
+
+#cursos>h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    width: 50%;
+}
+
+#cursos div:first-child{
+    background-image: url("../Makeup.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left ;
+}
+
+#cursos div:nth-child(3){
+    background-image: url("../makeup8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#cursos div:nth-child(5){
+    background-image: url("../o.0.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#cursos-text{
+    display: none;}
+
+#productos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#compra-aqui{
+    width: 100%;
+    background-color: #D9B1A3;
+    height: 600px;
+}
+
+#productos img{
+    width: 150px;
+    height: 120px;
+}
+
+/*.slide-wrap{*/
+/*    background-color: #AEBABF;*/
+/*    height: 600px;*/
+/*    width: 100%;*/
+/*    border: 2px solid red;*/
+/*    font-size: .8rem;*/
+/*    display:flex;*/
+/*    line-height: 1rem;*/
+/*}*/
+
+.marcas{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    line-height: 1rem;
+}
+
+.slide-wrap{
+    width: 100%;
+    /*border: 2px solid red;*/
+    font-size: .8rem;
+    display:flex;
+    flex-direction: column;
+    line-height: 1rem;
+    height: 600px;
+    background-color: #AEBABF;
+    /*flex-direction: column;*/
+    /*margin-top: 3rem;*/
+
+}
+
+form{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contactos h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    color: #8B5360;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contactos h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    margin-left: .5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: #8B5360;
+    text-transform: uppercase;
+}
+
+.email-submit{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 150px;
+}
+
+#email{
+    width: 220px;
+    height: 20px;
+    margin-left: 1rem;
+    border: 3px solid #8B5360 ;
+    outline: none;
+}
+
+#submit{
+    margin-left: 1rem;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #8B5360;
+    outline: none;
+    color: whitesmoke;
+    background-color: #8B5360;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+/*----------------------------media----------------------------*/
+
+@media screen and (min-width:900px){
+    nav{
+        /*border: 2px solid red;*/
+        display: flex;
+        /*flex-direction: column;*/
+        justify-content:center;
+        align-items:center;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: bold;
+        /*margin-top: .rem;*/
+        cursor: pointer;
+        padding: 1rem;
+        margin-left: -2.6rem;
+
+
+    }
+    nav a{
+        padding: .2rem;
+        text-decoration:none;
+        color: whitesmoke;
+        cursor: pointer;
+        margin-left: 1rem;
+        border-bottom: 4px solid transparent;
+    }
+
+    nav a:hover{
+        border-bottom-color:#8B5360;;
+        cursor: pointer;
+
+    }
+    .gray{
+        background-image: url("Makeup2.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 500px;
+        /*margin-top:7rem;*/
+        /*margin-left: 1rem;*/
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        color: whitesmoke;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 4px;
+        font-size: 1rem;
+    }
+
+    section div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /*border: 2px solid blue;*/
+    }
+
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /*height: 360px;*/
+        /*border: 2px solid red;*/
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    #text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    #text1{
+        background-color: #D9B1A3;
+        /*border: 2px solid red;*/
+        width: 50%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #video-1{
+        /*background-color: #BF8C80;*/
+        background-color: #AEBABF;
+        /*border: 2px solid red;*/
+        width: 50%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #cursos{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #cursos h2{
+        display: none;
+    }
+
+    #cursos-text{
+        /*border: 2px solid red;*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+
+    #cursos-text p{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        width: 20%;
+        font-weight: bold;
+        padding: .6rem;
+        line-height: 1.3rem;
+    }
+
+    #productos{
+        display: flex;
+        flex-direction: row;
+        /*border:2px solid red;*/
+        height: 600px;
+        width: 100%;
+        margin-top: 10rem;
+    }
+
+    .marcas{
+        display: flex;
+        flex-direction: row;
+        color: whitesmoke;
+    }
+
+    .slide-wrap{
+        width: 50%;
+    }
+
+    #compra-aqui{
+        width: 50%;
+    }
+
+    form{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .contactos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .email-submit{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        height: 150px;
+    }
+
+}
+
+
